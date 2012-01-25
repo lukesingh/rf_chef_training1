@@ -7,4 +7,4 @@
 # All rights reserved - Do Not Redistribute
 #
 
-log "Hello World!"
+log "Hello Worldo!"

@@ -23,7 +23,7 @@ log "package name variable #{package_name}"
 
 package "tmux"
 
-if node [:platform] == 'centos'
+if node[:platform] == 'centos'
         log "This is a centos box"
 elsif node[:platform] == 'ubuntu'
         log "This is a ubuntu box"

@@ -31,4 +31,6 @@ end
 
 log "os system #{node[:platform]}"
 
+log "wahterver value #{node[:whatever]}"
+
 rs_utils_marker :end

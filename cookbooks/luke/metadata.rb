@@ -11,3 +11,12 @@ depends "rs_utils"
 supports "ubuntu"
 
 recipe "luke::setup_luke", ""
+
+attribute 'whatever',
+
+   :display_name => "Just some value",
+   :description => "Nothing to see here",
+   :required => "required",
+   :recipes => ["luke::setup_luke"]
+
+
